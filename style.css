@@ -575,7 +575,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); letter-spacing: 0; }
 
 .credential-item { display: grid; grid-template-columns: 120px minmax(0,1fr); gap: 15px; padding: 16px 0; border-top: 1px solid var(--line); }
 
-.credential-date { padding-top: 3px; color: #65737f; font-size: 10px; font-weight: 600; }
+.credential-date, .credential-status { padding-top: 3px; color: #65737f; font-size: 10px; font-weight: 600; }
 
 .credential-item h4 { margin: 0 0 4px; color: var(--navy); font-size: 14px; font-weight: 600; }
 
@@ -715,6 +715,8 @@ h1, h2, h3, h4 { font-family: var(--font-display); letter-spacing: 0; }
 
   .about-content { padding-top: 0; }
 
+  .about-content { font-size: 15px; line-height: 1.7; }
+
   .section-heading h2, .contact-copy h2 { font-size: 37px; }
 
   .career-section { padding-top: 65px; padding-bottom: 72px; }
@@ -745,7 +747,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); letter-spacing: 0; }
 
   .timeline-date { padding: 0; }
 
-  .timeline-body ul { font-size: 12px; }
+  .timeline-body ul { font-size: 13px; line-height: 1.65; }
 
   .experience-employer { padding-top: 22px; }
 
@@ -764,6 +766,10 @@ h1, h2, h3, h4 { font-family: var(--font-display); letter-spacing: 0; }
   .role-timeline .current-role .role-heading h4 { font-size: 17px; }
 
   .achievement-inner, .skills-inner { padding-top: 72px; padding-bottom: 76px; }
+
+  .achievement-item { gap: 10px; padding: 22px 0; }
+
+  .achievement-item p { font-size: 13px; line-height: 1.6; }
 
   .achievement-list { margin-top: 8px; }
 
