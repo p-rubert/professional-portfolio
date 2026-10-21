@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#10243d">
-    <meta name="description" content="Excel VBA warehouse location audit automation using barcode scans, ERP verification, duplicate handling, and audit tracking.">
+    <meta name="description" content="Excel VBA warehouse location audit automation using barcode scans, ERP verification, discrepancy identification, and audit tracking.">
     <title>Excel VBA Warehouse Location Audit Automation | Pablo Rubert</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,7 +39,7 @@
           <a class="project-back" href="../index.html#projects">← Back to projects</a>
           <p class="section-kicker">Technical project / Excel VBA</p>
           <h1 class="project-page-title" id="project-title">Excel VBA Warehouse Location Audit Automation</h1>
-          <p class="project-page-lead">An Excel VBA-supported warehouse location audit workflow combining barcode scans, two-operator scan stations, ERP verification, color-coded results, duplicate-record handling, and audit tracking.</p>
+          <p class="project-page-lead">An Excel VBA-supported warehouse location audit workflow combining barcode scans, two-operator scan stations, ERP verification, color-coded results, first-match location-and-part lookup, and audit tracking.</p>
           <div class="project-page-tags" aria-label="Project technologies and focus">
             <span>Microsoft Excel</span><span>VBA</span><span>Barcode scanning</span><span>Inventory control</span>
           </div>
@@ -50,13 +50,11 @@
         <div class="project-detail-grid">
           <article class="project-info-card">
             <h2>Project Overview</h2>
-            <p>This project applies Excel VBA to a warehouse location audit workflow. Operators scan location and inventory information, compare the audit against ERP records, and use color-coded results and audit tracking to review progress and exceptions.</p>
-            <p class="project-page-note">Project context, scale, and implementation environment: <strong>[Add verified details.]</strong></p>
+            <p>Developed and implemented a Microsoft Excel VBA-based warehouse location auditing system used for recurring inventory audits every two months. The completed workbook supports barcode scanning through two operator input stations, verifies scanned part numbers against ERP location records, and provides automated discrepancy identification, color-coded results, and user/timestamp tracking. The system operates within an Excel macro-enabled workbook and supports a standardized, repeatable warehouse auditing workflow.</p>
           </article>
           <article class="project-info-card project-info-card-highlight">
             <h2>Problem Statement</h2>
-            <p>The project addresses the need to capture warehouse audit scans, verify results against ERP data, identify duplicate records, and track audit progress. The source description does not specify the prior process or its particular limitations.</p>
-            <p class="project-page-note">Prior process and specific pain points: <strong>[Add verified details.]</strong></p>
+            <p>Warehouse location auditing requires verifying that physical inventory is stored in the correct locations according to ERP records. Manually comparing scanned part numbers and warehouse locations against inventory records can involve repetitive searching and make discrepancies more difficult to document consistently. The project addressed these workflow challenges by automating location-and-part verification, visually distinguishing matching records from discrepancies, and recording audit activity for follow-up and review.</p>
           </article>
 
           <article class="project-info-card">
@@ -65,7 +63,7 @@
               <li>Support barcode-based scanning at two-operator scan stations.</li>
               <li>Verify scanned audit information against ERP records.</li>
               <li>Make audit results easier to distinguish with color coding.</li>
-              <li>Handle duplicate records and provide a way to track audit activity.</li>
+              <li>Record audit activity with user and timestamp tracking.</li>
             </ul>
           </article>
           <article class="project-info-card">
@@ -73,8 +71,6 @@
             <ul>
               <li>Microsoft Excel.</li>
               <li>Visual Basic for Applications (VBA).</li>
-              <li>Barcode scanning devices or input method: <strong>[Add verified device or setup.]</strong></li>
-              <li>ERP platform and integration method: <strong>[Add verified system and method.]</strong></li>
             </ul>
           </article>
 
@@ -84,9 +80,8 @@
               <li><strong>Capture scan data</strong><span>Use barcode scanning at two-operator scan stations to record audit information.</span></li>
               <li><strong>Verify against ERP</strong><span>Compare scanned audit information with ERP records.</span></li>
               <li><strong>Review audit results</strong><span>Use color-coded results to distinguish audit outcomes.</span></li>
-              <li><strong>Handle and track records</strong><span>Address duplicate records and maintain audit tracking.</span></li>
+              <li><strong>Track audit activity</strong><span>Record the user and timestamp for audit follow-up and review.</span></li>
             </ol>
-            <p class="project-page-note">This sequence organizes the supplied feature description; confirm the actual workbook workflow and operator steps before publishing.</p>
           </article>
 
           <article class="project-info-card">
@@ -95,24 +90,31 @@
               <li>Barcode scanning performed through two-operator scan stations.</li>
               <li>Verification of audit scans against ERP data.</li>
               <li>Color-coded audit results.</li>
-              <li>Duplicate-record handling.</li>
+              <li>Automated identification of location-and-part discrepancies.</li>
               <li>Audit tracking.</li>
             </ul>
-            <p class="project-page-note">Exact color meanings, duplicate-resolution rules, and tracking fields: <strong>[Add verified details.]</strong></p>
           </article>
           <article class="project-info-card">
             <h2>Technical Challenges &amp; Solutions</h2>
-            <p>Documented solution areas include coordinating a two-operator scanning workflow, checking scans against ERP records, distinguishing results, handling duplicates, and tracking audit progress.</p>
-            <p class="project-page-note">Specific technical challenges, VBA design decisions, error handling, and solutions: <strong>[Add verified implementation details.]</strong></p>
+            <p>Solution areas include coordinating a two-operator scanning workflow, checking scanned part numbers against ERP location records, distinguishing matching records from discrepancies, and tracking audit activity.</p>
+          </article>
+
+          <article class="project-info-card project-info-card-wide project-info-card-highlight">
+            <h2>Inventory Location Accuracy — 2022–2026</h2>
+            <figure class="accuracy-chart">
+              <img src="Images/image%20Location%20Audit.png" alt="Line chart of annual average warehouse location accuracy: 75.2% in 2022, 97.2% in 2023, 98.5% in 2024, 98.7% in 2025, and 99.5% year-to-date in 2026.">
+              <figcaption>
+                <p>Annual warehouse location accuracy increased from 75.2% in 2022 to 99.5% in 2026, an improvement of 24.3 percentage points. The VBA audit system was introduced in 2022.</p>
+                <p class="accuracy-chart-note">The 2026 figure reflects year-to-date results.</p>
+              </figcaption>
+            </figure>
           </article>
 
           <article class="project-info-card project-info-card-wide project-info-card-highlight">
             <h2>Business Impact &amp; Skills Demonstrated</h2>
-            <p>The described workflow supports warehouse location auditing through scan capture, ERP verification, visible results, duplicate handling, and audit tracking. Quantified outcomes were not provided.</p>
+            <p>The workflow supports recurring warehouse location auditing through scan capture, ERP verification, visible results, automated discrepancy identification, and user/timestamp tracking.</p>
             <ul>
-              <li><strong>Skills demonstrated:</strong> Excel VBA automation, barcode-enabled warehouse processes, ERP data verification, inventory auditing, duplicate-record handling, and audit tracking.</li>
-              <li><strong>Business results:</strong> [Add verified time savings, accuracy, coverage, or other measured outcomes.]</li>
-              <li><strong>Project dates, role, and workbook details:</strong> [Add verified details.]</li>
+              <li><strong>Skills demonstrated:</strong> Excel VBA automation, barcode-enabled warehouse processes, ERP data verification, inventory auditing, and audit tracking.</li>
             </ul>
           </article>
         </div>
